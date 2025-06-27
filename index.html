@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultório Odontopediátrico - Dra. [Nome da Dentista]</title>
+    <meta name="description" content="Consultório odontológico especializado em atendimento infantil. Cuidamos do sorriso do seu filho com carinho, profissionalismo e ambiente acolhedor.">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <h2><i class="fas fa-tooth"></i> Dra. [Nome da Dentista]</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#diferenciais">Diferenciais</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Operating Hours Notification -->
+    <div id="hours-notification" class="hours-notification">
+        <div class="notification-content">
+            <i class="fas fa-clock"></i>
+            <span>Horário de Atendimento: <span id="operating-hours">Segunda a Sexta 8h às 18h | Sábado 8h às 12h</span></span>
+            <button class="close-notification">&times;</button>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <div class="container">
+                <div class="hero-text">
+                    <h1 class="hero-title" data-editable>Cuidamos do Sorriso do Seu Filho com Todo Carinho</h1>
+                    <p class="hero-subtitle" data-editable>Odontopediatria especializada em criar experiências positivas e sorrisos saudáveis para toda a vida.</p>
+                    <div class="hero-buttons">
+                        <a href="#agendamento" class="btn btn-primary" data-editable-link>Agendar Consulta</a>
+                        <a href="#sobre" class="btn btn-secondary" data-editable-link>Conheça Nosso Consultório</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="./assets/exemplo2.jpeg" alt="Crianças felizes na clínica odontológica">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sobre o Consultório</h2>
+                <p data-editable>Especialista em odontopediatria com mais de 15 anos de experiência</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 data-editable>Um Consultório Pensado Especialmente para Crianças</h3>
+                    <p data-editable>Meu consultório foi projetado para criar um ambiente acolhedor e divertido, onde as crianças se sintam seguras e confortáveis durante todo o tratamento odontológico.</p>
+                    <p data-editable>Com uma abordagem especializada em odontopediatria, utilizo técnicas lúdicas e modernas para tornar cada visita uma experiência positiva, contribuindo para a formação de hábitos saudáveis de higiene bucal desde a infância.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="5000">0</span>
+                            <span class="stat-label" data-editable>Crianças Atendidas</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="15">0</span>
+                            <span class="stat-label" data-editable>Anos de Experiência</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="98">0</span>
+                            <span class="stat-label" data-editable>% Satisfação</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="./assets/exemplo.jpg" alt="Interior da clínica odontopediátrica">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicos" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossos Serviços</h2>
+                <p data-editable>Cuidado completo para a saúde bucal do seu filho</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tooth"></i>
+                    </div>
+                    <h3 data-editable>Prevenção e Limpeza</h3>
+                    <p data-editable>Consultas preventivas, limpeza profissional e aplicação de flúor para manter os dentinhos sempre saudáveis.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 data-editable>Selantes Dentários</h3>
+                    <p data-editable>Proteção extra contra cáries nos dentes permanentes, especialmente nos molares.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3 data-editable>Restaurações Estéticas</h3>
+                    <p data-editable>Tratamento de cáries com materiais estéticos e biocompatíveis, preservando a beleza natural do sorriso.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <h3 data-editable>Ortodontia Infantil</h3>
+                    <p data-editable>Acompanhamento do desenvolvimento dos dentes e correção precoce de problemas ortodônticos.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-baby"></i>
+                    </div>
+                    <h3 data-editable>Odontologia para Bebês</h3>
+                    <p data-editable>Cuidados especiais desde os primeiros dentinhos, orientação para pais e prevenção precoce.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3 data-editable>Atendimento Especial</h3>
+                    <p data-editable>Cuidado especializado para crianças com necessidades especiais, com toda paciência e carinho.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Differentials Section -->
+    <section id="diferenciais" class="differentials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossos Diferenciais</h2>
+                <p data-editable>O que torna nosso consultório especial</p>
+            </div>
+            <div class="differentials-grid">
+                <div class="differential-item">
+                    <div class="differential-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3 data-editable>Brinquedoteca</h3>
+                    <p data-editable>Espaço lúdico com jogos e brinquedos para deixar as crianças mais relaxadas antes e depois do atendimento.</p>
+                </div>
+                <div class="differential-item">
+                    <div class="differential-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3 data-editable>Profissional Especializada</h3>
+                    <p data-editable>Profissional com formação específica em odontopediatria e experiência no atendimento infantil.</p>
+                </div>
+                <div class="differential-item">
+                    <div class="differential-icon">
+                        <i class="fas fa-tv"></i>
+                    </div>
+                    <h3 data-editable>Entretenimento</h3>
+                    <p data-editable>Televisões com desenhos animados em todas as salas de atendimento para distrair durante o tratamento.</p>
+                </div>
+                <div class="differential-item">
+                    <div class="differential-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3 data-editable>Sistema de Recompensas</h3>
+                    <p data-editable>Programa de incentivos com brindes e certificados para motivar o cuidado com a higiene bucal.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="depoimentos" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>O Que os Pais Dizem</h2>
+                <p data-editable>Depoimentos reais de famílias satisfeitas</p>
+            </div>
+            <div class="testimonials-carousel">
+                <div class="testimonial-item active">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p data-editable>"Minha filha sempre teve medo de dentista, mas aqui ela se sente em casa. A equipe é maravilhosa e o ambiente é muito acolhedor. Recomendo de olhos fechados!"</p>
+                        <div class="testimonial-author">
+                            <img src="assets/images/child-dentist.png" alt="Maria Silva">
+                            <div class="author-info">
+                                <h4 data-editable>Maria Silva</h4>
+                                <span data-editable>Mãe da Sofia, 7 anos</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p data-editable>"Profissionais extremamente competentes e carinhosos. Meu filho adora vir às consultas e já aprendeu a importância de cuidar dos dentinhos."</p>
+                        <div class="testimonial-author">
+                            <img src="assets/images/happy-children.jpg" alt="João Santos">
+                            <div class="author-info">
+                                <h4 data-editable>João Santos</h4>
+                                <span data-editable>Pai do Pedro, 5 anos</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p data-editable>"Atendimento excepcional! A clínica é linda, limpa e as crianças se divertem enquanto cuidam da saúde bucal. Parabéns a toda equipe!"</p>
+                        <div class="testimonial-author">
+                            <img src="assets/images/clinic-interior.jpg" alt="Ana Costa">
+                            <div class="author-info">
+                                <h4 data-editable>Ana Costa</h4>
+                                <span data-editable>Mãe da Beatriz, 9 anos</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button class="carousel-btn prev-btn">&lt;</button>
+                <button class="carousel-btn next-btn">&gt;</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header">
+                 <h2>Perguntas Frequentes</h2>
+                <p data-editable>Tire suas dúvidas sobre odontopediatria</p>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-editable>A partir de que idade devo levar meu filho ao dentista?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-editable>Recomendamos a primeira visita ao dentista quando aparecer o primeiro dentinho ou até o primeiro ano de vida. Isso ajuda a estabelecer bons hábitos desde cedo e permite que a criança se familiarize com o ambiente odontológico.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-editable>Como preparar minha criança para a primeira consulta?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-editable>Converse de forma positiva sobre a visita, explique que o dentista é um amigo que cuida dos dentinhos. Evite usar palavras que possam causar medo como "dor" ou "injeção". Nossa equipe está preparada para receber crianças de primeira viagem!</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-editable>Com que frequência devo trazer meu filho para consultas?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-editable>Recomendamos consultas a cada 6 meses para acompanhamento preventivo. Em alguns casos específicos, pode ser necessário um intervalo menor, que será orientado pelo nosso odontopediatra.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-editable>Vocês atendem crianças com necessidades especiais?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-editable>Sim! Nossa equipe tem experiência no atendimento de crianças com necessidades especiais. Oferecemos um ambiente adaptado e técnicas especializadas para garantir o melhor cuidado para todos os pequenos pacientes.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-editable>Quais são os sinais de que meu filho precisa de aparelho ortodôntico?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-editable>Alguns sinais incluem: dentes tortos ou apinhados, dificuldade para mastigar, respiração pela boca, hábitos como chupar dedo ou chupeta após os 3 anos. Nossa avaliação ortodôntica pode identificar a necessidade de intervenção precoce.</p>
+                    </div>
+                </div>>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Appointment Section -->
+    <section id="agendamento" class="appointment">
+        <div class="container">
+            <div class="section-header">
+                <h2>Agende Sua Consulta</h2>
+                <p>Entre em contato via WhatsApp para agendar sua consulta de forma rápida e fácil!</p>
+            </div>
+            <div class="appointment-content whatsapp-contact">
+                <a href="https://wa.me/5511987654321?text=Olá! Gostaria de agendar uma consulta para meu filho." class="btn btn-primary whatsapp-btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Agendar via WhatsApp
+                </a>
+                <p class="whatsapp-info">Ou se preferir, ligue para: (11) 1234-5678</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+<section id="contato" class="contact">
+    <div class="container">
+        <div class="section-header">
+            <h2>Entre em Contato</h2>
+            <p>Estamos aqui para cuidar do sorriso do seu filho</p>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="info-text">
+                        <h3 data-editable>Endereço</h3>
+                        <p data-editable>
+                            Rua das Flores, 123<br>
+                            Centro, São Paulo - SP<br>
+                            CEP: 01234-567
+                        </p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div class="info-text">
+                        <h3 data-editable>Telefone</h3>
+                        <p data-editable>
+                            (11) 1234-5678<br>
+                            (11) 98765-4321
+                        </p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div class="info-text">
+                        <h3 data-editable>E-mail</h3>
+                        <p data-editable>
+                            contato@sorrisosfelizes.com.br<br>
+                            agendamento@sorrisosfelizes.com.br
+                        </p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-clock"></i>
+                    <div class="info-text">
+                        <h3 data-editable>Horário de Funcionamento</h3>
+                        <p data-editable>
+                            Segunda a Sexta: 8h às 18h<br>
+                            Sábado: 8h às 12h<br>
+                            Domingo: Fechado
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-map">
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d788.03008413138!2d-40.74168768012908!3d-20.028485815063156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb9d75a8ea27c4b%3A0x1010bf2d74277e39!2sCl%C3%ADnica%20Dra%20Yasmin%20Prochnow!5e0!3m2!1spt-BR!2sbr!4v1751061367132!5m2!1spt-BR!2sbr" 
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade"
+        data-editable-map>
+    </iframe>
+</div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-tooth"></i> Sorrisos Felizes</h3>
+                    <p>Cuidando do sorriso das crianças com carinho, profissionalismo e dedicação há mais de 15 anos.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Úteis</h4>
+                    <ul>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#depoimentos">Depoimentos</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="#">Prevenção e Limpeza</a></li>
+                        <li><a href="#">Ortodontia Infantil</a></li>
+                        <li><a href="#">Odontologia para Bebês</a></li>
+                        <li><a href="#">Atendimento Especial</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Informações</h4>
+                    <ul>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                        <li><a href="#">Dúvidas Frequentes</a></li>
+                        <li><a href="#">Como Chegar</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sorrisos Felizes - Clínica Odontopediátrica. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/5511987654321?text=Olá! Gostaria de agendar uma consulta para meu filho." class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Image Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
+
