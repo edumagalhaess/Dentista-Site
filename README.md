@@ -57,6 +57,14 @@ cd dentista-site
 
 Também pode sugerir melhorias na aba de <a href="https://github.com/edumagalhaess/dentista-site/issues">Issues</a> do projeto.
 
+---
+
+## 🔗 Demo Online
+
+Você pode conferir a versão ao vivo do site clicando aqui:  
+👉 [Veja a demo aqui](https://edumagalhaess.github.io/dentista-site/)
+
+---
 
 ## 📝 Licença
 Este projeto foi feito apenas para fins educacionais.
